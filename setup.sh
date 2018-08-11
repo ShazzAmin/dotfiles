@@ -1,6 +1,8 @@
 #!/bin/sh
 
-./bash/setup.sh
-./git/setup.sh
-./tmux/setup.sh
-./vim/setup.sh
+DIR="$( cd "$( dirname "$0" )" > /dev/null && pwd )"
+
+$DIR/bash/setup.sh
+$DIR/git/setup.sh
+$DIR/tmux/setup.sh
+$DIR/vim/setup.sh
