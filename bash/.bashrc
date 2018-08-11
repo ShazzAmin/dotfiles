@@ -1,6 +1,11 @@
+# load /etc/bashrc if it exists
+if [ -f /etc/bashrc ]; then
+	source /etc/bashrc
+fi
+
 # load ~/.bashrc.secret if it exists
 if [ -f $HOME/.bashrc.secret ]; then
-    source $HOME/.bashrc.secret
+	source $HOME/.bashrc.secret
 fi
 
 # prompt
