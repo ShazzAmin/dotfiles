@@ -2,4 +2,4 @@
 
 DIR="$( cd "$( dirname "$0" )" > /dev/null && pwd )"
 
-ln -s $DIR/.vimrc $HOME/.vimrc
+ln -sf $DIR/.vimrc $HOME/.vimrc

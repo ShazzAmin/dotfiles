@@ -2,6 +2,6 @@
 
 DIR="$( cd "$( dirname "$0" )" > /dev/null && pwd )"
 
-ln -s $DIR/.bash_profile $HOME/.bash_profile
-ln -s $DIR/.bashrc $HOME/.bashrc
-ln -s $DIR/.bashrc.secret $HOME/.bashrc.secret
+ln -sf $DIR/.bash_profile $HOME/.bash_profile
+ln -sf $DIR/.bashrc $HOME/.bashrc
+ln -sf $DIR/.bashrc.secret $HOME/.bashrc.secret
