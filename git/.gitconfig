@@ -1,3 +1,6 @@
 [user]
 	name = Shazz
 	email = me@shazz.me
+[core]
+	editor = vim
+	autocrlf = input
