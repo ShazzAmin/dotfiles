@@ -14,6 +14,7 @@ export PS1="\[$(tput bold)\]\[\033[38;5;14m\][\u@\h]\[$(tput sgr0)\]\[$(tput sgr
 # general aliases
 alias reload="source $HOME/.bashrc"
 alias c="clear"
+alias e="exit"
 alias g="git"
 alias t="tmux"
 alias v="vim"
