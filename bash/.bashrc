@@ -12,7 +12,7 @@ fi
 export PS1="\[$(tput bold)\]\[\033[38;5;14m\][\u@\h]\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;10m\]\w\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\]\n\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;9m\]\\$\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
 
 # general aliases
-alias reload="source $HOME/.bashrc"
+alias r="source $HOME/.bashrc"
 alias c="clear"
 alias e="exit"
 alias g="git"
