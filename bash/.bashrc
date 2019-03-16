@@ -11,6 +11,9 @@ fi
 # prompt
 export PS1="\[$(tput bold)\]\[\033[38;5;14m\][\u@\h]\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;10m\]\w\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\]\n\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;9m\]\\$\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
 
+# standard packages
+export STANDARD_PACKAGES="bash git tmux vim make gcc nodejs erlang elixir rustup jdk-openjdk python"
+
 # general aliases
 alias r="source $HOME/.bashrc"
 alias c="clear"
