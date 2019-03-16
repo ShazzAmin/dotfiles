@@ -19,6 +19,16 @@ alias g="git"
 alias t="tmux"
 alias v="vim"
 
+# pacman aliases
+alias pu="sudo pacman -Syyu" # update
+alias ps="sudo pacman -Ss" # search
+alias pi="sudo pacman -S" # install
+alias piu="sudo pacman -U" # install URL
+alias pli="sudo pacman -Q" # list installed
+alias psi="sudo pacman -Qs" # search installed
+alias pii="sudo pacman -Qi" # info installed
+alias pri="sudo pacman -Rns" # remove installed
+
 # git aliases
 alias gs="git status"
 alias gd="git diff"
