@@ -24,7 +24,7 @@ alias v="vim"
 
 # pacman aliases
 alias pu="sudo pacman -Syyu" # update
-alias ps="sudo pacman -Ss" # search
+alias pss="sudo pacman -Ss" # search
 alias pd="sudo pacman -Si" # details
 alias pi="sudo pacman -S" # install
 alias piu="sudo pacman -U" # install URL
@@ -44,6 +44,7 @@ alias gcom="git commit -m"
 alias gch="git checkout"
 alias gpl="git pull"
 alias gps="git push"
+alias gcp="git cherry-pick"
 
 # docker aliases
 alias dpa="docker image prune -f && docker network prune -f && docker container prune -f && docker volume prune -f"
